@@ -8,10 +8,12 @@ public class ControladorPersonagem : MonoBehaviour
     public float vel;   
     public float jump;
     public GameObject GroundCheck;
+    private GroundCheck scriptGround;
     // Start is called before the first frame update
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        scriptGround = GroundCheck.GetComponent<GroundCheck>();
     }
 
     // Update is called once per frame
@@ -24,10 +26,8 @@ public class ControladorPersonagem : MonoBehaviour
             rb2d.velocity += new Vector2(vel,0)*horizontalInput*Time.deltaTime;
         }
 
-        if (Input.GetKey(KeyCode.UpArrow)||Input.GetKey(KeyCode.Space)) {
+        if (Input.GetKey(KeyCode.UpArrow)&&scriptGround.taNoChao||Input.GetKey(KeyCode.Space)&&scriptGround.taNoChao) {
             rb2d.velocity = new Vector2(rb2d.velocity.x,jump);
         }
-
-        
     }
 }

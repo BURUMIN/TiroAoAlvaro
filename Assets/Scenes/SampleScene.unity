@@ -584,7 +584,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb2d: {fileID: 0}
   vel: 10
-  jump: 0.5
+  jump: 5
   GroundCheck: {fileID: 1101528722}
 --- !u!224 &370906438
 RectTransform:
@@ -703,7 +703,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.5304824, g: 0.6580411, b: 0.8584906, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1068,7 +1068,7 @@ GameObject:
   - component: {fileID: 835962731}
   m_Layer: 0
   m_Name: CHAO
-  m_TagString: Untagged
+  m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1133,8 +1133,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 835962728}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.4807, z: 0}
-  m_LocalScale: {x: 21, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -4.4929, z: 0}
+  m_LocalScale: {x: 21, y: 1.0244, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1176,6 +1176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1101528724}
   - component: {fileID: 1101528723}
+  - component: {fileID: 1101528725}
   m_Layer: 0
   m_Name: GroundCheck
   m_TagString: Untagged
@@ -1219,6 +1220,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -0.162}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1101528725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101528722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36342889340cc7842b152694d89bf3dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  taNoChao: 0
 --- !u!1 &1146900225
 GameObject:
   m_ObjectHideFlags: 0
