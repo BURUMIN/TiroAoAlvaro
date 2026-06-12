@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 60954054}
   - component: {fileID: 60954053}
   m_Layer: 0
-  m_Name: "Obstaculos da Vida s\xE3o duros como meu p\xEAnis"
+  m_Name: obataculo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -245,7 +245,7 @@ GameObject:
   - component: {fileID: 83566368}
   - component: {fileID: 83566367}
   m_Layer: 0
-  m_Name: "Obstaculos da Vida s\xE3o duros como meu p\xEAnis"
+  m_Name: obataculo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -356,7 +356,7 @@ GameObject:
   - component: {fileID: 324691885}
   - component: {fileID: 324691884}
   m_Layer: 0
-  m_Name: "Obstaculos da Vida s\xE3o duros como meu p\xEAnis"
+  m_Name: obataculo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -844,8 +844,10 @@ GameObject:
   - component: {fileID: 660059391}
   - component: {fileID: 660059390}
   - component: {fileID: 660059389}
+  - component: {fileID: 660059393}
+  - component: {fileID: 660059392}
   m_Layer: 0
-  m_Name: coins-chests-etc-2-0_0
+  m_Name: Moeda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -939,6 +941,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &660059392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660059388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7646c18885ea6d44aa403f0d7521f092, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &660059393
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660059388}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.07
 --- !u!1 &693454398
 GameObject:
   m_ObjectHideFlags: 0
@@ -951,7 +981,7 @@ GameObject:
   - component: {fileID: 693454400}
   - component: {fileID: 693454399}
   m_Layer: 0
-  m_Name: "Obstaculos da Vida s\xE3o duros como meu p\xEAnis"
+  m_Name: obataculo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1062,7 +1092,7 @@ GameObject:
   - component: {fileID: 785914744}
   - component: {fileID: 785914743}
   m_Layer: 0
-  m_Name: "Obstaculos da Vida s\xE3o duros como meu p\xEAnis"
+  m_Name: obataculo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1351,7 +1381,7 @@ GameObject:
   - component: {fileID: 1146900227}
   - component: {fileID: 1146900226}
   m_Layer: 0
-  m_Name: "Obstaculos da Vida s\xE3o duros como meu p\xEAnis"
+  m_Name: obataculo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1462,7 +1492,7 @@ GameObject:
   - component: {fileID: 1178990351}
   - component: {fileID: 1178990350}
   m_Layer: 0
-  m_Name: "Obstaculos da Vida s\xE3o duros como meu p\xEAnis"
+  m_Name: obataculo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1573,7 +1603,7 @@ GameObject:
   - component: {fileID: 1548844717}
   - component: {fileID: 1548844716}
   m_Layer: 0
-  m_Name: "Obstaculos da Vida s\xE3o duros como meu p\xEAnis"
+  m_Name: obataculo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1684,7 +1714,7 @@ GameObject:
   - component: {fileID: 1573504613}
   - component: {fileID: 1573504612}
   m_Layer: 0
-  m_Name: "Obstaculos da Vida s\xE3o duros como meu p\xEAnis"
+  m_Name: obataculo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1795,7 +1825,7 @@ GameObject:
   - component: {fileID: 1610478284}
   - component: {fileID: 1610478283}
   m_Layer: 0
-  m_Name: "Obstaculos da Vida s\xE3o duros como meu p\xEAnis"
+  m_Name: obataculo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1906,7 +1936,7 @@ GameObject:
   - component: {fileID: 1779869534}
   - component: {fileID: 1779869533}
   m_Layer: 0
-  m_Name: "Obstaculos da Vida s\xE3o duros como meu p\xEAnis"
+  m_Name: obataculo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2017,7 +2047,7 @@ GameObject:
   - component: {fileID: 1919274226}
   - component: {fileID: 1919274225}
   m_Layer: 0
-  m_Name: "Obstaculos da Vida s\xE3o duros como meu p\xEAnis"
+  m_Name: obataculo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2128,7 +2158,7 @@ GameObject:
   - component: {fileID: 2038402725}
   - component: {fileID: 2038402724}
   m_Layer: 0
-  m_Name: "Obstaculos da Vida s\xE3o duros como meu p\xEAnis"
+  m_Name: obataculo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
