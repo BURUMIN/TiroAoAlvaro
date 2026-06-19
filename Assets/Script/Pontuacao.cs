@@ -8,7 +8,7 @@ public class Pontuacao : MonoBehaviour
     float pontos = 0;
     public TextMeshProUGUI teste;
 
-    public void addPoint(){
+    public void AddPoint(){
         pontos++;
         teste.text=pontos.ToString();
     }
