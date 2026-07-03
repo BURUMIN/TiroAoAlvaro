@@ -22,7 +22,7 @@ public class ControladorPersonagem : MonoBehaviour
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
 
-        if (rb2d.velocity.magnitude < 5) {
+        if (horizontalInput != 0) {
             rb2d.velocity += new Vector2(vel,0)*horizontalInput*Time.deltaTime;
         }
 
